@@ -58,8 +58,8 @@ Retrive data from Excel as html table & json response ( you will find 2 table , 
 
 ## To run the app please follow the follwing steps:
 
-git clone https://github.com/your-username/native-excel-importer.git
-cd native-excel-importer
+git clone https://github.com/muhanadmahmoud23/mts.git
+cd mts
 composer install
 Place any excel file with same rows
 run the app throught apache or any virtual server
