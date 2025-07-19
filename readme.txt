@@ -53,7 +53,7 @@ insert data from excel array
 ------------------------------------------------------------------------------------------------------------------------
 
 #Create method in InvoiceModel to:
-Retrive data from Excel as html table ( you will find 2 table , 1 before normilization , second after normilization)
+Retrive data from Excel as html table & json response ( you will find 2 table , 1 before normilization , second after normilization)
 -------------------------------------------------------------------------------------------------------------------------
 
 ## To run the app please follow the follwing steps:
