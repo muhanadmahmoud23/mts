@@ -33,6 +33,7 @@ class ComposerStaticInit62e10e6c8df9afc192311b196c75bb33
         ),
         'A' => 
         array (
+            'App\\migrations\\' => 15,
             'App\\' => 4,
         ),
     );
@@ -70,6 +71,10 @@ class ComposerStaticInit62e10e6c8df9afc192311b196c75bb33
         'Complex\\' => 
         array (
             0 => __DIR__ . '/..' . '/markbaker/complex/classes/src',
+        ),
+        'App\\migrations\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/migrations',
         ),
         'App\\' => 
         array (

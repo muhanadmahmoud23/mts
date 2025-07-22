@@ -10,6 +10,7 @@
                 <th>Customer</th>
                 <th>Address</th>
                 <th>Product</th>
+                <th>Category</th>
                 <th>Qty</th>
                 <th>Price</th>
             </tr>
@@ -22,6 +23,7 @@
                     <td><?= htmlspecialchars($invoice['customer_name']) ?></td>
                     <td><?= htmlspecialchars($invoice['customer_address']) ?></td>
                     <td><?= htmlspecialchars($invoice['product_name']) ?></td>
+                    <td><?= htmlspecialchars($invoice['category_name']) ?></td>
                     <td><?= htmlspecialchars($invoice['quantity']) ?></td>
                     <td><?= htmlspecialchars($invoice['price']) ?></td>
                 </tr>

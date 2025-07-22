@@ -16,6 +16,7 @@ foreach ($invoices as $row) {
 
     $grouped[$invoiceId]['items'][] = [
         'product_name' => $row['product_name'],
+        'category_name' => $row['category_name'],
         'quantity' => $row['quantity'],
         'price' => $row['price']
     ];
@@ -30,13 +31,14 @@ foreach ($grouped as $invoiceId => $invoice) {
     echo "Address: {$invoice['customer_address']}</p>";
 
     echo "<table border='1' cellpadding='5' cellspacing='0'>";
-    echo "<thead><tr><th>Product</th><th>Quantity</th><th>Price</th><th>Total</th></tr></thead><tbody>";
+    echo "<thead><tr><th>Product</th><th>Category</th><th>Quantity</th><th>Price</th><th>Total</th></tr></thead><tbody>";
     $grandTotal = 0;
     foreach ($invoice['items'] as $item) {
         $total = $item['quantity'] * $item['price'];
         $grandTotal += $total;
         echo "<tr>
                 <td>{$item['product_name']}</td>
+                  <td>{$item['category_name']}</td>
                 <td>{$item['quantity']}</td>
                 <td>{$item['price']}</td>
                 <td>{$total}</td>

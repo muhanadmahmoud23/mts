@@ -2,9 +2,10 @@
 
 namespace App\classes;
 
+use App\interfaces\DatabaseConnectionInterface;
 use PDO;
 
-class Database
+class SQLiteConnection implements DatabaseConnectionInterface
 {
     private ?PDO $pdo = null;
 
