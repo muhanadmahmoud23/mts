@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\xampp\htdocs\mts2\phpunit.xml" tests="4" assertions="7" errors="0" failures="0" skipped="0" time="0.015270">
+    <testsuite name="Unit" tests="4" assertions="7" errors="0" failures="0" skipped="0" time="0.015270">
+      <testsuite name="tests\Unit\DB\SQLiteConnectionTest" file="C:\xampp\htdocs\mts2\tests\Unit\Database\SQLiteConnectionTest.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.009123">
+        <testcase name="testConnectEstablishesConnection" file="C:\xampp\htdocs\mts2\tests\Unit\Database\SQLiteConnectionTest.php" line="13" class="tests\Unit\DB\SQLiteConnectionTest" classname="tests.Unit.DB.SQLiteConnectionTest" assertions="1" time="0.006837"/>
+        <testcase name="testGetPdoReturnsSameInstanceAfterConnect" file="C:\xampp\htdocs\mts2\tests\Unit\Database\SQLiteConnectionTest.php" line="21" class="tests\Unit\DB\SQLiteConnectionTest" classname="tests.Unit.DB.SQLiteConnectionTest" assertions="1" time="0.000916"/>
+        <testcase name="testCloseResetsPdo" file="C:\xampp\htdocs\mts2\tests\Unit\Database\SQLiteConnectionTest.php" line="32" class="tests\Unit\DB\SQLiteConnectionTest" classname="tests.Unit.DB.SQLiteConnectionTest" assertions="1" time="0.001370"/>
+      </testsuite>
+      <testsuite name="tests\Unit\Migrations\CreateAddressTest" file="C:\xampp\htdocs\mts2\tests\Unit\Migrations\CreateAddressTest.php" tests="1" assertions="4" errors="0" failures="0" skipped="0" time="0.006147">
+        <testcase name="testMigrateCreatesAddressesTable" file="C:\xampp\htdocs\mts2\tests\Unit\Migrations\CreateAddressTest.php" line="19" class="tests\Unit\Migrations\CreateAddressTest" classname="tests.Unit.Migrations.CreateAddressTest" assertions="4" time="0.006147"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

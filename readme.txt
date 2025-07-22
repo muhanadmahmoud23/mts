@@ -55,6 +55,11 @@ insert data from excel array
 #Create method in InvoiceModel to:
 Retrive data from Excel as html table & json response ( you will find 2 table , 1 before normilization , second after normilization)
 -------------------------------------------------------------------------------------------------------------------------
+For Unit Testing (FOR CREATE ADDRESS & SQLLITECONNECTION(connect, close & get pdo)):
+composer require --dev phpunit/phpunit
+vendor/bin/phpunit
+for more test details please run : ./vendor/bin/phpunit --log-junit result.xml
+
 
 ## To run the app please follow the follwing steps:
 

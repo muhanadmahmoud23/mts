@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"tests\\Unit\\DB\\SQLiteConnectionTest::testConnectEstablishesConnection":0.007,"tests\\Unit\\DB\\SQLiteConnectionTest::testGetPdoReturnsSameInstanceAfterConnect":0.001,"tests\\Unit\\DB\\SQLiteConnectionTest::testCloseResetsPdo":0.001,"tests\\Unit\\Migrations\\CreateAddressTest::testMigrateCreatesAddressesTable":0.005}}

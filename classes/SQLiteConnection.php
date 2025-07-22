@@ -2,6 +2,8 @@
 
 namespace App\classes;
 
+require_once 'interfaces\DatabaseConnectionInterface.php';
+
 use App\interfaces\DatabaseConnectionInterface;
 use PDO;
 
